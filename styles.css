@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  /* Tipografías */
+    --font-text: 'Inter', sans-serif;
+    --font-titles: 'Space Grotesk', sans-serif;
+
+    --bg-principal: #12131A;
+    --bg-cards: #1C1F2A;
+
+    --text-principal: #F2F2F7;
+    --text-secundario: #B4B7C9;
+
+    --progress-bar: #D19BFF;
+}
