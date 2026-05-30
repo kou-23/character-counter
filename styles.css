@@ -159,3 +159,45 @@ h1{
 
 
 /* Estilos check-box */
+
+/* Estilos fila de 3 imagenes */
+
+.second-sect{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card{
+    background-image: url('../assets/images/bgimage1.png');
+    width: 205px;
+    height: 120px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.card2{
+    background-image: url('../assets/images/bgimage2.png');
+    width: 205px;
+    height: 120px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.card3{
+    background-image: url('../assets/images/bgimage3.png');
+    width: 205px;
+    height: 120px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+}
+/* Estilos fila de 3 imagenes */
