@@ -10,7 +10,7 @@
     --font-titles: 'Space Grotesk', sans-serif;
 
     --bg-principal: #12131A;
-    --bg-cards: #1C1F2A;
+    --bg-cards: #21222C;
 
     --text-principal: #F2F2F7;
     --text-secundario: #B4B7C9;
@@ -77,3 +77,85 @@ header div:last-of-type img{
 }
 
 /* Estilos header */
+
+/* Estilos check-box */
+
+.first-sect textarea{
+    width: 100%;
+    height: 130px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bg-cards);
+    padding: 13px;
+    text-align: left;
+    box-shadow: inset 0 0 0 2px #48444d
+}
+
+.first-sect textarea::placeholder{
+    color: var(--text-principal);
+    line-height: 22px;
+    font-family: var(--font-text);
+    font-size: 15px;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+h1{
+    font-family: var(--font-titles);
+    color: var(--text-principal);
+    font-size: 60px;
+    display: flex;
+    padding: 40px;
+    text-align: center;
+}
+
+.controles-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.controles-texto div input:last-of-type{
+    margin-left: 15px;
+}
+
+.controles-texto div input{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 4px;
+    color: var(--text-principal);
+    cursor: pointer;
+}
+.controles-texto div input:checked{
+    background-color: var(--progress-bar);
+    
+}
+
+.controles-texto div label{
+    margin-left: 4px;
+    color: var(--text-principal);
+    font-family: var(--font-text);
+    font-weight: 150;
+    font-size: 14px;
+}
+
+.controles-texto div p{
+    color: var(--text-principal);
+    font-family: var(--font-text);
+    font-weight: 150;
+    font-size: 14px;
+}
+
+
+
+/* Estilos check-box */
