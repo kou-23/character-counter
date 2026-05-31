@@ -238,15 +238,35 @@ h4{
 
 .grupo-progress div p:first-child {
     width: 12px;
+    font-family: var(--font-text);
+    color: var(--text-principal);
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .grupo-progress div p:last-child {
     width: 80px;
+    font-family: var(--font-text);
+    font-size: 13px;
+    color: var(--text-principal);
+    font-weight: 300;
 }
 
-.grupo-progress div progress{
+progress{
     flex-grow: 1;
-    height: 15px;
+    appearance: none;
+    border: none;
+    height: 9px;
+}
+
+progress::-webkit-progress-bar{
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value{
+    background-color: var(--progress-bar);
+    border-radius: 10px;
 }
 
 /* Estilos progress */
