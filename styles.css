@@ -217,3 +217,36 @@ h5{
 }
 /* Estilos fila de 3 imagenes */
 
+/* Estilos progress */
+h4{
+    font-family: var(--font-text);
+    color: var(--text-principal);
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.grupo-progress{
+    margin-top: 15px;
+}
+
+.grupo-progress div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.grupo-progress div p:first-child {
+    width: 12px;
+}
+
+.grupo-progress div p:last-child {
+    width: 80px;
+}
+
+.grupo-progress div progress{
+    flex-grow: 1;
+    height: 15px;
+}
+
+/* Estilos progress */
