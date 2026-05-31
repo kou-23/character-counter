@@ -221,7 +221,7 @@ h5{
 h4{
     font-family: var(--font-text);
     color: var(--text-principal);
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 600;
 }
 
@@ -270,3 +270,27 @@ progress::-webkit-progress-value{
 }
 
 /* Estilos progress */
+
+
+/* Estilo button "See more" */
+
+.see-more{
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-principal);
+    font-family: var(--font-text);
+    font-size: 15px;
+}
+
+.see-more:hover{
+    color: var(--progress-bar);
+}
+
+.flecha{
+    font-family: var(--font-titles);
+    font-size: 14px;
+}
+/* Estilo button "See more" */
+
