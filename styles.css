@@ -78,7 +78,7 @@ header div:last-of-type img{
 
 /* Estilos header */
 
-/* Estilos check-box */
+/* Estilos textarea y check-box */
 
 .first-sect textarea{
     width: 100%;
@@ -200,4 +200,20 @@ h1{
     background-position: center;
 
 }
+
+h3{
+    font-family: var(--font-text);
+    font-size: 45px;
+    color: var(--bg-principal);
+    margin: 20px 0px 0px 10px;
+}
+h5{
+    font-family: var(--font-text);
+    color: var(--font-text);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0px 0px 10px;
+    
+}
 /* Estilos fila de 3 imagenes */
+
