@@ -30,8 +30,9 @@ main{
     width: 800px;
     height: auto;
     background-color: var(--bg-principal);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 80px;
+    box-shadow: 0 10px 30px rgba(138, 43, 226, 0.15), 0 15px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* Estilos header */
@@ -46,6 +47,7 @@ header div h2{
     margin-left: 13px;
     font-family: var(--font-text);
     font-weight: 400;
+    font-size: 20px;
 }
 
 header div:first-of-type{
@@ -54,7 +56,7 @@ header div:first-of-type{
 }
 header div:first-of-type img{
     display: flex;
-    width: 40px;
+    width: 30px;
 }
 header div:last-of-type{
     display: flex;
@@ -64,11 +66,14 @@ header div:last-of-type{
 
 header div:last-of-type img{
     display: flex;
-    width: 30px;  
+    width: 20px;  
 }
 
 .sun-button{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
     background-color: var(--bg-cards);
     padding: 8px;
     border: none;
@@ -79,6 +84,16 @@ header div:last-of-type img{
 /* Estilos header */
 
 /* Estilos textarea y check-box */
+
+h1{
+    font-family: var(--font-titles);
+    color: var(--text-principal);
+    font-size: 60px;
+    display: flex;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
 
 .first-sect textarea{
     width: 100%;
@@ -105,15 +120,6 @@ textarea:focus::placeholder {
 
 textarea:focus {
     outline: none;
-}
-
-h1{
-    font-family: var(--font-titles);
-    color: var(--text-principal);
-    font-size: 60px;
-    display: flex;
-    padding: 40px;
-    text-align: center;
 }
 
 .controles-texto{
@@ -233,7 +239,7 @@ h4{
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .grupo-progress div p:first-child {
