@@ -175,7 +175,7 @@ textarea:focus {
 }
 
 .card{
-    background-image: url('../assets/images/bgimage1.png');
+    background-image: url('./assets/images/bgimage1.png');
     width: 205px;
     height: 120px;
     border-radius: 10px;
@@ -186,7 +186,7 @@ textarea:focus {
 }
 
 .card2{
-    background-image: url('../assets/images/bgimage2.png');
+    background-image: url('./assets/images/bgimage2.png');
     width: 205px;
     height: 120px;
     border-radius: 10px;
@@ -197,7 +197,7 @@ textarea:focus {
 }
 
 .card3{
-    background-image: url('../assets/images/bgimage3.png');
+    background-image: url('./assets/images/bgimage3.png');
     width: 205px;
     height: 120px;
     border-radius: 10px;
@@ -256,6 +256,7 @@ h4{
     font-size: 13px;
     color: var(--text-principal);
     font-weight: 300;
+    text-align: right;
 }
 
 progress{
